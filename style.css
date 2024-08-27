@@ -6,3 +6,32 @@
 html{
     scroll-behavior: smooth;
 }
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.nav-link{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: left;
+    color: #957554;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: black;
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+}
